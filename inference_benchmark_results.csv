@@ -1,0 +1,6 @@
+Model,Mean Time (s),Std Time (s),Per Sample (ms),Samples,Runs
+Gradient Boosting,0.240361,0.552546,0.240361,1000,10
+K-Nearest Neighbors,3.974553,0.124012,3.974553,1000,10
+MLP Neural Network,0.007179,0.0012,0.007179,1000,10
+Random Forest,0.34397,0.062776,0.34397,1000,10
+SVR (Linear),0.000736,0.000132,0.000736,1000,10

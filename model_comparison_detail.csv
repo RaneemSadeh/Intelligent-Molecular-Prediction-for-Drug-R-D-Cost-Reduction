@@ -1,0 +1,46 @@
+Model,Property,MAE,RMSE,R2,MAPE (%)
+Random Forest,dipole_moment,0.641357,0.820509,0.327213,229.85
+Random Forest,polarizability,0.393313,0.580579,0.66546,210.88
+Random Forest,homo_energy,0.5592,0.730607,0.461661,280.81
+Random Forest,lumo_energy,0.567533,0.711042,0.496388,219.35
+Random Forest,homo_lumo_gap,0.581077,0.727988,0.468678,197.05
+Random Forest,spatial_extent,0.416112,0.599109,0.641089,282.7
+Random Forest,zero_point_energy,0.32506,0.445232,0.803183,320.2
+Random Forest,internal_energy_0K,0.349408,0.524652,0.721744,81.56
+Random Forest,heat_capacity,0.398232,0.55668,0.693728,865.47
+Gradient Boosting,dipole_moment,0.668014,0.845202,0.286109,204.99
+Gradient Boosting,polarizability,0.42067,0.60424,0.637637,232.81
+Gradient Boosting,homo_energy,0.579935,0.751629,0.430236,303.82
+Gradient Boosting,lumo_energy,0.625809,0.762839,0.420342,232.91
+Gradient Boosting,homo_lumo_gap,0.628045,0.770494,0.404821,212.61
+Gradient Boosting,spatial_extent,0.427412,0.612087,0.625371,312.97
+Gradient Boosting,zero_point_energy,0.367985,0.482262,0.769082,381.93
+Gradient Boosting,internal_energy_0K,0.370739,0.542577,0.702406,88.99
+Gradient Boosting,heat_capacity,0.431395,0.585323,0.6614,1705.78
+MLP Neural Network,dipole_moment,0.581893,0.755525,0.429562,239.5
+MLP Neural Network,polarizability,0.378666,0.560846,0.687815,186.25
+MLP Neural Network,homo_energy,0.44747,0.58103,0.659525,318.1
+MLP Neural Network,lumo_energy,0.435348,0.565434,0.681529,233.04
+MLP Neural Network,homo_lumo_gap,0.471091,0.60611,0.631691,206.6
+MLP Neural Network,spatial_extent,0.410682,0.582927,0.660215,267.17
+MLP Neural Network,zero_point_energy,0.232081,0.351144,0.877578,229.65
+MLP Neural Network,internal_energy_0K,0.335098,0.51636,0.73047,81.1
+MLP Neural Network,heat_capacity,0.347214,0.5001,0.752822,900.97
+SVR (Linear),dipole_moment,0.67839,0.863177,0.255422,247.93
+SVR (Linear),polarizability,0.409143,0.655467,0.573591,213.77
+SVR (Linear),homo_energy,0.541837,0.714252,0.485494,324.21
+SVR (Linear),lumo_energy,0.58276,0.734623,0.462431,260.67
+SVR (Linear),homo_lumo_gap,0.603554,0.768422,0.408017,236.65
+SVR (Linear),spatial_extent,0.420454,0.649901,0.577652,283.83
+SVR (Linear),zero_point_energy,0.306573,0.506049,0.745741,238.99
+SVR (Linear),internal_energy_0K,0.34391,0.602196,0.633413,76.8
+SVR (Linear),heat_capacity,0.398988,0.621917,0.617739,1651.1
+K-Nearest Neighbors,dipole_moment,0.654963,0.852376,0.273938,311.01
+K-Nearest Neighbors,polarizability,0.390747,0.594714,0.648972,209.28
+K-Nearest Neighbors,homo_energy,0.557357,0.73983,0.447983,331.84
+K-Nearest Neighbors,lumo_energy,0.551216,0.726184,0.47471,263.93
+K-Nearest Neighbors,homo_lumo_gap,0.574233,0.748291,0.438628,213.0
+K-Nearest Neighbors,spatial_extent,0.419158,0.613964,0.62307,315.22
+K-Nearest Neighbors,zero_point_energy,0.315975,0.465018,0.7853,317.5
+K-Nearest Neighbors,internal_energy_0K,0.333288,0.534667,0.711019,76.54
+K-Nearest Neighbors,heat_capacity,0.395436,0.571048,0.677715,320.4

@@ -1,0 +1,6 @@
+Model,R2,MAE,RMSE,MAPE (%),Training Time (s)
+Random Forest,0.5866,0.4701,0.6329,298.65,146.1
+Gradient Boosting,0.5486,0.5022,0.6619,408.53,9.6
+MLP Neural Network,0.679,0.4044,0.5577,295.82,264.9
+SVR (Linear),0.5288,0.4762,0.6796,392.66,110.7
+K-Nearest Neighbors,0.5646,0.4658,0.6496,262.08,3.2

@@ -1,0 +1,25 @@
+# Large data files (exceed GitHub 100MB limit)
+molecule_data.csv
+molecule_data_preprocessed.csv
+molecule_data_with_embeddings.csv
+
+# Large model files
+saved_models/random_forest.joblib
+saved_models/k-nearest_neighbors.joblib
+saved_models/gradient_boosting.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
