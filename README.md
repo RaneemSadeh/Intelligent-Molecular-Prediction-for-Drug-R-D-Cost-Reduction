@@ -34,30 +34,8 @@ The system is trained on the QM9 dataset, which contains approximately 134,000 s
 
 ## Architecture
 
-```
-SMILES String
-      |
-      v
-  RDKit Parsing (atom/bond features)
-      |
-      v
-  Molecular Graph (nodes = atoms, edges = bonds)
-      |
-      v
-  GNN Encoder (3-layer GCN + BatchNorm + Dropout)
-      |
-      v
-  32-dim Embedding Vector
-      |
-      v
-  StandardScaler
-      |
-      v
-  ML Regressor (RF / GB / MLP / SVR / KNN)
-      |
-      v
-  9 Predicted Properties
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/b1486040-5e7f-4642-927a-663a4a0effcf" />
+
 
 ---
 
@@ -126,10 +104,6 @@ Inference speed was benchmarked on 1,000 test samples over 10 repeated runs:
 | K-Nearest Neighbors  | 3.974553      | 3.974553        |
 
 SVR (Linear) is the fastest model, while MLP Neural Network offers the best balance between accuracy and speed.
-
-### Inference Time -- Full Test Set
-
-![Inference time total](plots/14_inference_time_total.png)
 
 ### Inference Time -- Per Molecule
 
