@@ -295,5 +295,4 @@ curl -X POST http://localhost:5000/api/predict \
 ---
 
 ## License
-
-This project was developed as a Capstone Project at Al-Hussein Bin Abdullah II Technical University.
+Capstone Project at Al-Hussein Bin Abdullah II Technical University.
