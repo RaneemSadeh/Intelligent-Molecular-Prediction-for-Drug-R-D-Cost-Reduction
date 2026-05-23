@@ -69,10 +69,6 @@ Five regression models were trained and evaluated on 20% held-out test data. The
 
 The MLP Neural Network achieved the highest R2 score (0.6790) and lowest MAE (0.4044), making it the best-performing model overall.
 
-### Overall Performance Comparison
-
-![Overall model comparison](plots/09_model_comparison_overall.png)
-
 ### R2 Score per Property
 
 ![R2 per property](plots/10_r2_per_property.png)
