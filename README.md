@@ -1,4 +1,4 @@
-# Intelligent Molecular Prediction for Drug R&D Cost Reduction
+# Leveraging GNNs and Machine Learning for Cost-Effective Molecular Prediction in Drug R&D
 
 A machine learning pipeline for predicting quantum-mechanical molecular properties from SMILES representations. The system combines Graph Neural Network (GNN) embeddings with classical ML regressors to deliver fast and accurate property predictions, served through a REST API with an interactive web interface.
 
